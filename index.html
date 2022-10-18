@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>personal website</title>
+
+    <link rel="icon" href="img/person.jpg">
+
+    <!-- core css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+
+    <!-- core media -->
+    <!-- *** 790px *** -->
+    <link rel="stylesheet" media="screen and (max-width: 790px)" href="css/media-timeline.css">
+</head>
+
+<body>
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="container-fluid position-relative p-0">
+        <header id="header">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <span>
+                        <img src="img/person.jpg" class="person" alt="my photo">
+                    </span>
+                    <h3 class="mx-1">
+                        Shoaib Fateh
+                        <span>a programmer</span>
+                    </h3>
+                </a>
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler btn btn-outline-primary" type="button" data-toggle="collapse"
+                    data-target="#collapsNav">
+                    <span class="fas fa-stream"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-end" id="collapsNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutme">About me</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myexperience">Experience</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myskills">Skills</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div id="blog-slider" class="carousel slide" data-ride="carousel">
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="content">
+                            <h2>Hi, I'm a <em>Prog</em>rammer</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- section about me -->
+    <a id="aboutme"></a>
+    <section id="section-about-me" class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-5">
+                <div class="position-relative h-100">
+                    <img src="img/about.jpg" class="position-absolute w-100 h-100 rounded" style="object-fit: cover;"
+                        alt="about me">
+                </div>
+            </div>
+            <div class="col-lg-7 display-grid" style="min-height: 500px;text-align: justify;">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h5 class="fw-bold text-primary text-uppercase">About Me</h5>
+                    <h1 class="mb-0">Who Am I?</h1>
+                </div>
+
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="fas fa-graduation-cap text-white font-size-40px"></i>
+                    </div>
+
+                    <span>
+                        I'm <b>Shoaib Taji</b>, a <b>programmer</b>, when I was 12 years old I
+                        started learning Programming. I love create Apps
+                        and Web Applications.
+                    </span>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="fas fa-code text-white font-size-40px"></i>
+                    </div>
+
+                    <span>
+                        I'm a <b>webdevloper</b>, I can create and develop <b>Web Applications</b>.
+                        when I was 12 years old I <b>create my first web application</b>.
+                    </span>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="far fa-calendar-alt text-white font-size-40px"></i>
+                    </div>
+
+                    <span>
+                        at <b>2018</b> I started learning Programming, now I am a <b>master</b> about it.
+                        I love Programming. I enjoy it.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a id="myexperience"></a>
+    <!-- experience -->
+    <section id="experience" class="py-5 bg-dark-blue">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto text-light" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">My Experience</h5>
+            <h1 class="mb-0">Hi I am a Programmer</h1>
+        </div>
+
+        <div class="timeline">
+            <div class="container-time-line right">
+                <div class="content">
+                    <h3>2018</h3>
+                    <p>
+                        I start learning <b>Programming</b> and create my first programme.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-time-line left">
+                <div class="content">
+                    <h3>2019</h3>
+                    <p>
+                        I start learning <b>webdevlopment</b> and I can create many web applications
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-time-line right">
+                <div class="content">
+                    <h3>2020</h3>
+                    <p>
+                        I start learn more about Javascript, because I want become a skillful Javascript programmer.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-time-line left">
+                <div class="content">
+                    <h3>2021</h3>
+                    <p>
+                        I learn a bootcamp form Angela Yu, that course was about web devlopment.
+                        and I can create many website and web application.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-time-line right">
+                <div class="content">
+                    <h3>2022</h3>
+                    <p>
+                        I improve my skills and create many Apps.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- my skills -->
+    <a id="myskills"></a>
+    <section id="skills" class="container p-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">My Skills</h5>
+            <h1 class="mb-0">What Can I Do?</h1>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-lg-7 display-grid" style="min-height: 500px;text-align: justify;">
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="fab fa-html5 text-white font-size-40px"></i>
+                    </div>
+
+                    <span>
+                        I can work by <b>HTML 5</b> and I understand it rely much.
+                        I can <b>create all things</b> I want.
+                    </span>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="fab fa-css3-alt text-white font-size-40px"></i>
+                    </div>
+
+                    <span>
+                        I can work by <b>CSS 3</b> and I understand it rely much.
+                        I can do <b>exert all things</b> I want.
+                    </span>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="fas fa-file-code text-white font-size-40px"></i>
+                    </div>
+                    <span>
+                        I can work by <b>BOOTSTRAP</b> and I understand it rely much.
+                        I can <b>Exert All Things</b> I want.
+                    </span>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="fab fa-js-square text-white font-size-40px"></i>
+                    </div>
+
+                    <span>
+                        I can work by <b>JAVASCRIPT</b> and I understand it rely much.
+                        so, I now <b>ES6</b>.
+                        maby say I become a master at this language.
+                        I can <b>do all things</b>.
+                    </span>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="far fa-file-code text-white font-size-40px"></i>
+                    </div>
+                    <span>
+                        I can work by <b>JQUERY</b> and I understand it rely much.
+                        I can <b>Exert All Things</b> I want.
+                    </span>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="fab fa-node text-white font-size-40px"></i>
+                    </div>
+                    <span>
+                        I Can Work By <b>NODE.JS</b> And I Understand It Rely Much. So, I Now <b>EXPRESS</b>,
+                        <b>BODYPARSER</b>, <b>EJS</b>.
+                    </span>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="float-left mr-3 bg-primary d-flex align-items-center justify-content-center rounded py-1"
+                        style="width: 60px; height: 60px;">
+                        <i class="fab fa-react text-white font-size-40px"></i>
+                    </div>
+                    <span>
+                        I can work by <b>REACT</b> and I understand it rely much.
+                        I can <b>Create all things</b> I want.
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="position-relative h-100">
+                    <img src="img/about.jpg" class="position-absolute w-100 h-100 rounded" style="object-fit: cover;"
+                        alt="about me">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="container-fluid bg-dark-blue text-light mt-5">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-5 col-md-6 col-sm-12 footer-about">
+                        <div
+                            class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                            <a href="index.html" class="navbar-brand">
+                                <span>
+                                    <img src="img/person.jpg" alt="my photo" class="mb-2 person contact-img">
+                                </span>
+                                <h1 class="m-0 text-white">
+                                    Shoaib Taji
+                                </h1>
+                            </a>
+                            <p class="mt-3 mb-4">
+                                Hi friends, I'm Shoaib Taji.
+                                I'm a programmer, when I was 12 years old I started learning Programming.
+                                I love create Apps and Web applications.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">My Contacts</h3>
+                            </div>
+
+                            <div class="d-flex mb-2">
+                                <i class="fas fa-map-marked-alt text-primary mx-2"></i>
+                                <p class="mb-0">Number 1 Street, Herat, Afganistan</p>
+                            </div>
+
+                            <div class="d-flex mb-2">
+                                <i class="fas fa-envelope-open text-primary mx-2"></i>
+                                <p class="mb-0">shoaibfateh21@yahoo.com</p>
+                            </div>
+
+                            <div class="d-flex mb-2">
+                                <i class="fas fa-phone text-primary mx-2"></i>
+                                <p class="mb-0">(+93) 078 48 93 471</p>
+                            </div>
+
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square ml-2" href="linkedin.com/in/shoaib-fateh">
+                                    <i class="fab fa-linkedin-in fw-normal"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Your Massage</h3>
+                            </div>
+                            <form action="mailto:shoaibfateh21@yahoo.com" aria-required="true" class="wow fadeInUp"
+                                data-wow-delay="0.1s">
+                                <div>
+                                    <input type="email" class="form-control border-white p-3" placeholder="Your Email" required>
+                                </div>
+
+                                <div class="my-2">
+                                    <textarea name="msg" id="msg" cols="30" rows="5"
+                                        class="form-control border-white px-3" style="resize: none;"
+                                        placeholder="Your Massage" required></textarea>
+                                </div>
+                                <button class="btn btn-primary py-2 px-4 float-right mb-3">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- core script -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+@media screen and (max-width: 790px) {
+    .timeline::after {
+        display: none;
+    }
+
+    .timeline .timeline::after {
+        left: 31px;
+    }
+
+    .timeline .container-time-line {
+        width: 100%;
+    }
+
+    .timeline .left::after, 
+    .timeline .right::after {
+        display: none;
+    }
+
+    .timeline .right {
+        left: 0%;
+    }
+}
